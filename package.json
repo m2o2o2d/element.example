@@ -33,6 +33,12 @@
       "parser": "babel-eslint"
     }
   },
+  "eslintIgnore": [
+    "dist/*",
+    "node_modules/*",
+    "build/*",
+    "*.md"
+  ],
   "postcss": {
     "plugins": {
       "autoprefixer": {}
